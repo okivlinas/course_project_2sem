@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../logos/glasses.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../styles/order.css" />
+    <script src="/scripts/main.js"></script>
+    <title>My optics</title>
+  </head>
+  <body>
+    <header id="mainheader">
+      <section id="menu">
+        <figure id="logo">
+          <a href="../index.html"><img src="../logos/glasses.svg" /></a>
+        </figure>
+        <nav>
+          <ul>
+            <li><a href="../index.html" class="homepage">На главную</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <div class="separator"></div>
+    <section id="order">
+      <form class="form">
+        <h2>Напишите Нам</h2>
+        <p>Ваше имя:<br><input type="text" id="name" placeholder="Напишите здесь ваше имя"></p>
+        <p>Почта:<br><input type="email" id="email" placeholder="Оставте здесь вашу почту"></p>
+        <p>Телефон:<br><input type="tel" id="phone" placeholder="Оставте здесь ваш Телефон"></p>
+        <p>Наши услуги:<br><select id="choi">
+          <option selected disabled>Выберите необходимую вам услугу :</option>
+          <option>Подбор очков</option>
+          <option>Врачебный прием</option>
+          <option>Коррекция зрения</option>
+        </select></p>
+        <button type="submit" onclick="validateForm()">Отправить</button>
+      </form>
+    </section> 
+    <div class="separator"></div>
+    <footer id="mainfooter">
+      <address id="socialmediarefs">
+        <a href="https://instagram.com/okivlinas?igshid=YmMyMTA2M2Y="> <img src="../logos/insta.svg" /></a>
+        <a href="https://t.me/okivlinas"> <img src="../logos/telegram.svg" /></a>
+        <a href="https://vk.com/okivlinas"> <img src="../logos/vk.svg" /></a>
+      </address>
+      <p>&copy; My optics 2023. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
